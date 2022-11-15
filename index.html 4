@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Tooltip</title>
+
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .text {}
+
+    .tooltip {
+      /* display: none; */
+      background-color: gray;
+      color: white;
+      padding: 5px;
+      border-radius: 5px;
+    }
+
+    .tooltip-arrow {
+      width: 10px;
+      height: 10px;
+      background-color: red;
+    }
+
+    .tooltip-trigger:hover .tooltip {
+      display: block;
+    }
+
+    .tooltip-text {
+      margin: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="tooltip-trigger">
+
+    <p class="text">Kas te ir?</p>
+
+    <div class="tooltip">
+      <div class="tooltip-arrow"></div>
+
+      <p class="tooltip-text">Te esmu es.</p>
+    </div>
+
+  </div>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
